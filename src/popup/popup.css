@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+  color: #1b1b1f;
+}
+
+.popup {
+  width: 260px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 15px;
+  margin: 0 0 12px;
+}
+
+button {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 13px;
+  background: #5a3edc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4a30c0;
+}
+
+button:disabled {
+  background: #a99ce8;
+  cursor: default;
+}
+
+.result {
+  min-height: 1.2em;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+
+.last-result {
+  font-size: 11px;
+  color: #6b6b76;
+  margin: 0;
+}
+
+footer {
+  margin-top: 12px;
+  text-align: right;
+}
+
+footer a {
+  font-size: 11px;
+  color: #5a3edc;
+}
